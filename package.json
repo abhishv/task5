@@ -1,0 +1,17 @@
+{
+    "name": "form-example",
+    "version": "1.0.0",
+    "description": "An example of creating an HTML form, adding CSS, integrating a MongoDB database, implementing user authentication, and securing API endpoints.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.13.22",
+        "node": "^20.14.0",
+        "nodemon": "^2.0.13"
+    }
+}
